@@ -4,7 +4,7 @@
 a=-10;
 b=10;
 n=2; %n mates 
-k=1000; % tasku vektoriu skaicius
+k=100; % tasku vektoriu skaicius
 x=a + (b-a).* rand(k,n);% cia generuoja vienmati vektoriu
 for i=1:k % kad perduotu aiskai i sincos2 visus stulpelius
 f(i)=sincos2(x(i,:)); % kreipimasis
