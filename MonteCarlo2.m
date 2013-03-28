@@ -6,6 +6,7 @@ b=10;
 n=2; %n mates 
 k=100; % tasku vektoriu skaicius
 x=a + (b-a).* rand(k,n);% cia generuoja vienmati vektoriu
+f=[]; % buginosi netrindavo seno f
 for i=1:k % kad perduotu aiskai i sincos2 visus stulpelius
 f(i)=sincos2(x(i,:)); % kreipimasis
 end
