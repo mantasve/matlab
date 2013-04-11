@@ -34,6 +34,19 @@ a2=xMin1(1)-2; % pradine sritis
 b2=xMin1(1)+2; % pradine sritis
 a3=xMin1(2)-2;
 b3=xMin1(2)+2;
+if (a2<-10)
+    a2=-10;
+end 
+if (b2<-10)
+    b2=-10;
+end
+if  (b3>10)
+    b3=10;
+end
+if(a3>10)
+a3=10;
+end;
+    
 %n=2; %n mates 
 k2=500; % tasku vektoriu skaicius
 x2(:,1)=a2 + (b2-a2).* rand(k2,1);% cia generuoja vienmati vektoriu
